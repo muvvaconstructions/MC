@@ -3625,10 +3625,11 @@ td:last-child {
 }
 
 .intro-header__big-type {
-    font-size  : clamp(var(--text-display), var(--text-3xl) + 10vw, 8rem);
-    line-height: 1;
-    margin-top : 0;
+    font-size: clamp(2.8rem, 3rem + 4vw, 6rem);
+    line-height: 1.1;
+    margin-top: 0;
 }
+
 
 .intro-pic-primary {
     --pic-primary-width: calc((100 / (12/4)) * 1%);
